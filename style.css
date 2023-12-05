@@ -78,7 +78,7 @@ main{
     border-radius: 15px;
     margin: 5px;
     min-width: 200px;
-    max-width: 450px;
+    max-width: 350px;
     
 }
 h3{
@@ -118,49 +118,6 @@ button:hover{
     background-color: rgb(110, 182, 248);
     color: white;
 }
-@media only screen and (max-width: 400px){
-    #flexgomb{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: baseline;
-        align-items: center;
-        
-        
-    }
-    #flex3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: baseline;
-        align-items: center;
-    
-    }  
-    button{
-        margin: 5px;
-    } 
-    .kartyak{
-
-        display: flex;
-        flex-wrap: column;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        max-width: 200px;
-    }
-    #kartya{
-        background-color: bisque;
-        border: 3px solid black;
-        border-radius: 15px;
-        margin: 15px;
-        min-width: 100px;
-        max-width: 400px;
-        width: auto;
-        
-    }
-    
-}
 @media only screen and (max-width: 850px){
     main{
         background-color: rgb(233, 240, 140);
@@ -198,7 +155,50 @@ button:hover{
         border: 3px solid black;
         border-radius: 15px;
         margin: 5px;
-        width: 40%;
-        min-width: 100px;
+        min-width: 200px;
     }
 }
+@media only screen and (max-width: 400px){
+    #flexgomb{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: baseline;
+        align-items: center;
+        
+        
+    }
+    #flex3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: baseline;
+        align-items: center;
+    
+    }  
+    button{
+        margin: 5px;
+    } 
+    .kartyak{
+
+        display: flex;
+        flex-wrap: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        max-width: 200px;
+    }
+    #kartya{
+        background-color: bisque;
+        border: 3px solid black;
+        border-radius: 15px;
+        margin: 15px;
+        min-width: 150px;
+        max-width: 250px;
+
+        
+    }
+    
+}
+
